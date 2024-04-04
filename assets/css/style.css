@@ -61,6 +61,10 @@ h1 {
 
 /* Seccion Experiencia */
 
+.experiencia {
+    margin-bottom: 30px;
+}
+
 .experiencia h3 {
     color: orange;
 }
@@ -114,5 +118,62 @@ h1 {
     font-size: 14px;
     color: lightblue;
 }
+/* Seccion Educación */
+.educacion {
+    margin: auto;
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+    padding: 150px 0;
+    background-color: #fafafa;
+    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
+}
 
+.education-box {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; Centrar verticalmente el contenido */
+    height: 30rem; /* Altura fija */
+    background-color: #555;
+}
+
+.educacion h2 {
+    margin-bottom: 5rem;
+}
+
+.education-box hr {
+    color: orange;
+}
+
+.education-box h3 {
+    margin-top: 0;
+    color: orange;
+}
+
+.education-box h4 {
+    margin-top: 0;
+}
+
+.education-box p {
+    margin-bottom: 0;
+}
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.equal-height .education-box {
+    flex: 1;
+    margin-right: 10px; /* Añade espacio entre las cajas */
+}
+
+.equal-height .education-box:last-child {
+    margin-right: 0; /* Elimina el margen derecho de la última caja */
+}
 

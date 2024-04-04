@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cccc;
+}
+
+header {
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+header img {
+    border: solid 10px #fff;
+    width: 300px;
+    border-radius: 50%;
+    transform: translateY(70px);
+    box-shadow: 1px 1px 10px #555;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+main {
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+section {
+    margin: auto;
+    height: 350px;
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+    padding: 150px 0;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.icons i {
+    margin: 0 5px;
+    color: orange;
+}
+
+.btns button {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #555;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+

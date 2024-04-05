@@ -140,7 +140,7 @@ h1 {
     flex-direction: column;
     /* justify-content: center; Centrar verticalmente el contenido */
     height: 30rem; /* Altura fija */
-    background-color: #555;
+    background: linear-gradient(rgb(3, 151, 126), rgb(4, 50, 110))
 }
 
 .educacion h2 {
